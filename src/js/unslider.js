@@ -147,7 +147,7 @@
 			});
 
 			//  Add swipe support
-			if(jQuery.event.special.swipe && self.options.swipe) {
+			if($.event.special.swipe && self.options.swipe) {
 				self.initSwipe();
 			}
 
